@@ -1,0 +1,24 @@
+*{margin: 0;padding: 0;list-style: none;box-sizing: border-box;}
+
+.box{
+  position: relative;
+  width: 200px;
+  border: 2px solid black;
+}
+.image{
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+}
+.description{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  background-color: #333333;
+  color: white;
+  opacity: .5;
+  text-align: center;
+}
